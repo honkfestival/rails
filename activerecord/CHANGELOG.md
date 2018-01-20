@@ -1,3 +1,9 @@
+*   Fix `includes` unable to handle joins on case insensitive columns.
+
+    Fixes #31445.
+
+    *Hendy Tanata* (also Aaron and Lisa)
+
 ## Rails 5.2.3 (March 27, 2019) ##
 
 *   Fix different `count` calculation when using `size` with manual `select` with DISTINCT.
